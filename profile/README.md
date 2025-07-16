@@ -65,7 +65,7 @@ The HydraSDR project consists of 8 specialized repositories supporting the Hydra
 ## Quick Start Guide
 
 ### System Requirements
-- **Operating System**: Windows 8.1+, Linux (Ubuntu 18.04+), or macOS 10.14+
+- **Operating System**: Windows 8.1+, Linux (Ubuntu 20.04+), or macOS 10.14+
 - **USB Port**: USB 2.0 or higher
 - **Antenna**: SMA connector compatible
 
