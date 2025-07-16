@@ -1,6 +1,6 @@
-# HydraSDR Project
+# HydraSDR
 
-Welcome to HydraSDR project main repository - an advanced open-source Software Defined Radio platform.
+Welcome to HydraSDR organization main repository - an advanced open-source Software Defined Radio platform.
 
 The first product in the HydraSDR lineup is the **HydraSDR RFOne** receiver with 10MHz instantaneous bandwidth sampling capability across 24MHz to 1800MHz.
 
