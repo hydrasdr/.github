@@ -91,7 +91,7 @@ The HydraSDR project consists of 8 specialized repositories supporting the Hydra
    * The antenna must have an SMA male connector to mate with the device’s SMA female port.   
 4. Launch SDR++ fork or your preferred SDR application
 5. Select HydraSDR RFOne as input device
-6. Configure sample rate (up to 10 MSPS) and frequency range
+6. Configure the sample rate (up to 10 MSPS), frequency, and gain settings (Linear 12 is recommended as a starting point), then start RX streaming.
 
 ### Software Installation
 - **SDR++**: Download HydraSDR RFOne-optimized fork from [nightly releases](https://github.com/hydrasdr/SDRPlusPlus/releases/tag/nightly)
