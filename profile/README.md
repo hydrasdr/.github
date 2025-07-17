@@ -125,8 +125,7 @@ The HydraSDR project consists of 8 specialized repositories supporting the Hydra
 
 ## HydraSDR RFOne Availability
 
-The HydraSDR RFOne is now available worldwide with free shipping.
-
+The HydraSDR RFOne is available on DigiKey.
 **Pricing**: Under 190USD  
 **Availability**: In stock at [DigiKey](https://www.digikey.com/en/products/detail/benjamin-vernoux/hydrasdr-rfone/26256067) with worldwide shipping  
 **Documentation**: Full specifications at https://hydrasdr.com/hydrasdr-rfone
