@@ -5,7 +5,7 @@ Welcome to HydraSDR organization main repository - an advanced open-source Softw
 The first product in the HydraSDR lineup is the **HydraSDR RFOne** receiver with 10MHz instantaneous bandwidth sampling capability across 24MHz to 1800MHz.
 
 **Official Documentation**: [HydraSDR Website](https://hydrasdr.com) | **HydraSDR RFOne specification URL**: https://hydrasdr.com/hydrasdr-rfone  
-**Purchase Information**: In stock at DigiKey - price under 190USD including worldwide shipping: https://www.digikey.com/en/products/detail/benjamin-vernoux/hydrasdr-rfone/26256067  
+**Purchase Information**: In stock at DigiKey - price under 190USD https://www.digikey.com/en/products/detail/benjamin-vernoux/hydrasdr-rfone/26256067  
 **Community**: GitHub Issues for support and development discussions  
 **Creator**: Benjamin VERNOUX
 
@@ -127,7 +127,7 @@ The HydraSDR project consists of 8 specialized repositories supporting the Hydra
 
 The HydraSDR RFOne is now available worldwide with free shipping.
 
-**Pricing**: Under 190USD including worldwide shipping  
+**Pricing**: Under 190USD  
 **Availability**: In stock at [DigiKey](https://www.digikey.com/en/products/detail/benjamin-vernoux/hydrasdr-rfone/26256067) with worldwide shipping  
 **Documentation**: Full specifications at https://hydrasdr.com/hydrasdr-rfone
 
