@@ -19,7 +19,7 @@ It features **open-source Firmware, Applications, Host Tools with shared librari
 - **Bandwidth**: 10 MHz instantaneous sampling capability  
 - **ADC Resolution**: 12-bit, 20 MSPS
 - **Dynamic Range**: 80 dB
-- **Microcontroller**: NXP LPC4370 (Cortex-M4F + 2× Cortex-M0, 204 MHz)
+- **Microcontroller**: NXP LPC4370 (Cortex-M4F + 2× Cortex-M0, up to 204 MHz)
 - **Tuner**: Rafael R828D with enhanced filtering
 - **Connectivity**: USB-C (USB 2.0), SMA antenna connector
 - **Enclosure**: 7075 aerospace aluminum, black anodized
@@ -109,7 +109,7 @@ The HydraSDR project consists of 8 specialized repositories supporting the Hydra
 - Noise Figure: Optimized for low-noise performance
 
 **Hardware Architecture:**
-- MCU: NXP LPC4370 (1× Cortex-M4F + 2× Cortex-M0 @ 204 MHz)
+- MCU: NXP LPC4370 (1× Cortex-M4F + 2× Cortex-M0 @ up to 204 MHz)
 - Tuner: Rafael R828D with enhanced filtering
 - Interface: USB-C (USB 2.0 compatible)
 - Enclosure: 7075 aerospace aluminum with black anodized finish
