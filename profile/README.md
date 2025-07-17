@@ -117,10 +117,10 @@ The HydraSDR project consists of 8 specialized repositories supporting the Hydra
 - Multi-unit: Oversized enclosure supports up to 3 boards
 
 **Key Features:**
-- Open-source firmware enabling community development
+- Open-source firmware and API host tools enabling community development
 - Enhanced PCB layout with superior RF front-end design
-- Improved power filtering and thermal management
-- USB-C connector for modern connectivity
+- State of the art filtering and thermal management
+- Robust USB-C connector for modern connectivity
 - Made in USA manufacturing with European design expertise
 
 ## HydraSDR RFOne Availability
