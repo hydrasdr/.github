@@ -16,11 +16,10 @@ It features **open-source Firmware, Applications, Host Tools with shared librari
 
 **Key Features:**
 - **Frequency Range**: 24 MHz to 1.8 GHz continuous coverage
-- **Bandwidth**: 10 MHz instantaneous sampling capability  
-- **ADC Resolution**: 12-bit, 20 MSPS
-- **Dynamic Range**: 80 dB
+- **Bandwidth**: 10 MHz instantaneous sampling capability (9MHz alias/image free)
+- **Dynamic Range**: 12-bit ADC @ 20 MSPS providing 80 dB dynamic range (64 dB SNR, 10.4 ENOB)
 - **Microcontroller**: NXP LPC4370 (Cortex-M4F + 2× Cortex-M0, up to 204 MHz)
-- **Tuner**: Rafael R828D with enhanced filtering
+- **Tuner**: Rafael Micro R828D
 - **Connectivity**: USB-C (USB 2.0), SMA antenna connector
 - **Enclosure**: 7075 aerospace aluminum, black anodized
 - **Extensible**: Expandable with extension modules for additional frequency coverage
@@ -102,15 +101,15 @@ The HydraSDR project consists of 8 specialized repositories supporting the Hydra
 
 **RF Performance:**
 - Frequency Range: 24 MHz to 1.8 GHz (continuous)
-- Instantaneous Bandwidth: 10 MHz
+- Instantaneous Bandwidth: 10 MHz (9MHz alias/image free)
 - ADC Resolution: 12-bit
 - Sample Rate: Up to 10 MSPS output
-- Dynamic Range: 80 dB
+- Dynamic Range: Up to 80 dB
 - Noise Figure: Optimized for low-noise performance
 
 **Hardware Architecture:**
 - MCU: NXP LPC4370 (1× Cortex-M4F + 2× Cortex-M0 @ up to 204 MHz)
-- Tuner: Rafael R828D with enhanced filtering
+- Tuner: Rafael Micro R828D
 - Interface: USB-C (USB 2.0 compatible)
 - Enclosure: 7075 aerospace aluminum with black anodized finish
 - Expansion: Two unused uFL connectors for advanced applications
@@ -118,7 +117,7 @@ The HydraSDR project consists of 8 specialized repositories supporting the Hydra
 
 **Key Features:**
 - Open-source firmware and API host tools enabling community development
-- Enhanced PCB layout with superior RF front-end design
+- High Quality PCB layout with superior RF front-end design
 - State of the art filtering and thermal management
 - Robust USB-C connector for modern connectivity
 - Made in USA manufacturing with European design expertise
@@ -132,11 +131,13 @@ The HydraSDR RFOne is available on DigiKey.
 
 ## Development and Contributions
 
-The HydraSDR project welcomes community contributions across all repositories. Each repository contains specific contribution guidelines and coding standards. For technical support, feature requests, or bug reports, please use the GitHub Issues system in the relevant repository.
+The HydraSDR project welcomes community contributions across all repositories.
+Each repository contains specific contribution guidelines and coding standards.
+For technical support, feature requests, or bug reports, please use the GitHub Issues system in the relevant repository.
 
 **Development Tools:**
 - Open-source firmware built with standard GCC toolchains
-- Cross-platform host software supporting Windows/Linux/macOS
+- Cross-platform host software supporting Windows / GNU Linux(major distribution) / macOS (arm/intel)
 - Comprehensive build systems with CMake integration
 
 **Community Resources:**
