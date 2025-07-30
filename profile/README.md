@@ -38,6 +38,7 @@ The HydraSDR RFOne works with a comprehensive ecosystem of SDR applications:
 - **[URH (Universal Radio Hacker)](https://github.com/jopohl/urh)** - Protocol analysis and reverse engineering
 - **[LuaRadio](https://github.com/vsergeev/luaradio)** - Lightweight signal processing framework
 - **[GNSS-SDR](https://github.com/gnss-sdr/gnss-sdr)** - Open-source GNSS receiver for GPS/Galileo/GLONASS
+- **[nfc-laboratory](https://github.com/josevcm/nfc-laboratory)** - NFC signal sniffer and protocol decoder using SDR receiver for demodulation and decoding NFC-A, NFC-B, NFC-F and NFC-V signals in real-time up to 424 Kbps. ([nfc-laboratory v3.3.0](https://github.com/josevcm/nfc-laboratory/releases/tag/3.3.0) or more supports HydraSDR RFOne)
 
 All software supports **Windows, Linux, and macOS** platforms.
 
