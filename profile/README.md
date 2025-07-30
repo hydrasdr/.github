@@ -33,11 +33,21 @@ The HydraSDR RFOne works with a comprehensive ecosystem of SDR applications:
 - **[GNU Radio](https://github.com/hydrasdr/gr-osmosdr)** - gr-osmosdr for HydraSDR RFOne for GNU Radio
 - **[SoapyHydraSDR](https://github.com/hydrasdr/SoapyHydraSDR)** - Soapy for HydraSDR RFOne supporting GQRX and other applications
 
-### Docker multi-platform RF toolbox
-- **[PentHertz RF-Swift](https://github.com/PentHertz/RF-Swift)** - A powerful multi-platform RF toolbox that deploys specialized radio tools in seconds on Linux, Windows, and macOS supporting x86_64, ARM64 (Raspberry Pi, Apple Silicon), and RISC-V architectures without disrupting your primary OS. (sdr_light or sdr_full support HydraSDR RFOne see https://rfswift.io/docs/getting-started)
+### Docker Multi-Platform RF Toolbox / SDR
+- **[PentHertz RF-Swift](https://github.com/PentHertz/RF-Swift)** - A comprehensive Docker-based RF toolbox that enables rapid deployment of specialized radio frequency tools across multiple platforms and architectures. Supports Linux, Windows, and macOS on x86_64, ARM64 (Raspberry Pi, Apple Silicon), and RISC-V systems. Features containerized deployment that installs in seconds without modifying your host operating system.
+  - **Variants**: `sdr_light` and `sdr_full` configurations available
+  - **Hardware Support**: Compatible with HydraSDR RFOne
+  - **Documentation**: Complete setup guide at [rfswift.io/docs/getting-started](https://rfswift.io/docs/getting-started)
 
-### SDR Distribution DragonOS
-- **[DragonOS](https://sourceforge.net/projects/dragonos-focal/files/)** - DragonOS Noble (24.04) DragonOS FocalX (22.04) and DragonOS Focal (20.04) are out-of-the-box Lubuntu based x86_64 operating systems for anyone interested in software defined radios. (DragonOS Noble R5 (7/3/2025) or more supports HydraSDR RFOne)
+### GNU/Linux SDR Distribution
+- **[DragonOS](https://sourceforge.net/projects/dragonos-focal/files/)** - A ready-to-use Lubuntu-based Linux distribution specifically designed for software-defined radio enthusiasts and professionals. Provides an out-of-the-box SDR environment with pre-configured tools and drivers for immediate use.
+  - **Available Versions**: 
+    - DragonOS Noble (24.04 LTS)
+    - DragonOS FocalX (22.04 LTS) 
+    - DragonOS Focal (20.04 LTS)
+  - **Architecture**: x86_64 support
+  - **Hardware Support**: HydraSDR RFOne compatibility (DragonOS Noble R5 and later)
+  - **Latest Release**: DragonOS Noble R5 (July 3, 2025)
 
 ### Specialized Applications  
 - **[SatDump](https://github.com/SatDump/SatDump/releases/tag/nightly)** - Satellite signal decoding and processing (nightly build supports HydraSDR RFOne)
