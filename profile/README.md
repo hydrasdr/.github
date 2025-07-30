@@ -34,7 +34,7 @@ The HydraSDR RFOne works with a comprehensive ecosystem of SDR applications:
 - **[SoapyHydraSDR](https://github.com/hydrasdr/SoapyHydraSDR)** - Soapy for HydraSDR RFOne supporting GQRX and other applications
 
 ### Docker multi-platform RF toolbox
-- **[PentHertz RF-Swift](https://github.com/PentHertz/RF-Swift)** - A powerful multi-platform RF toolbox that deploys specialized radio tools in seconds on Linux, Windows, and macOS supporting x86_64, ARM64 (Raspberry Pi, Apple Silicon), and RISC-V architectures without disrupting your primary OS.
+- **[PentHertz RF-Swift](https://github.com/PentHertz/RF-Swift)** - A powerful multi-platform RF toolbox that deploys specialized radio tools in seconds on Linux, Windows, and macOS supporting x86_64, ARM64 (Raspberry Pi, Apple Silicon), and RISC-V architectures without disrupting your primary OS. (sdr_light or sdr_full support HydraSDR RFOne see https://rfswift.io/docs/getting-started)
 
 ### SDR Distribution DragonOS
 - **[DragonOS](https://sourceforge.net/projects/dragonos-focal/files/)** - DragonOS Noble (24.04) DragonOS FocalX (22.04) and DragonOS Focal (20.04) are out-of-the-box Lubuntu based x86_64 operating systems for anyone interested in software defined radios. (DragonOS Noble R5 (7/3/2025) or more supports HydraSDR RFOne)
