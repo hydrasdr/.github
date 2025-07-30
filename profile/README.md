@@ -33,12 +33,15 @@ The HydraSDR RFOne works with a comprehensive ecosystem of SDR applications:
 - **[GNU Radio](https://github.com/hydrasdr/gr-osmosdr)** - gr-osmosdr for HydraSDR RFOne for GNU Radio
 - **[SoapyHydraSDR](https://github.com/hydrasdr/SoapyHydraSDR)** - Soapy for HydraSDR RFOne supporting GQRX and other applications
 
+### multi-platform RF toolbox
+- **[PentHertz RF-Swift](https://github.com/PentHertz/RF-Swift)** - A powerful multi-platform RF toolbox that deploys specialized radio tools in seconds on Linux, Windows, and macOS supporting x86_64, ARM64 (Raspberry Pi, Apple Silicon), and RISC-V architectures without disrupting your primary OS.
+
 ### Specialized Applications  
 - **[SatDump](https://github.com/SatDump/SatDump/releases/tag/nightly)** - Satellite signal decoding and processing (nightly build supports HydraSDR RFOne)
-- **[URH (Universal Radio Hacker)](https://github.com/jopohl/urh)** - Protocol analysis and reverse engineering
-- **[LuaRadio](https://github.com/vsergeev/luaradio)** - Lightweight signal processing framework
-- **[GNSS-SDR](https://github.com/gnss-sdr/gnss-sdr)** - Open-source GNSS receiver for GPS/Galileo/GLONASS
+- **[URH (Universal Radio Hacker)](https://github.com/hydrasdr/urh)** - Repository contains the Universal Radio Hacker fork with HydraSDR RFOne support for protocol analysis and signal intelligence applications.
+- **[luaradio](https://github.com/hydrasdr/luaradio)** - Repository contains the LuaRadio framework fork with HydraSDR RFOne providing lightweight signal processing capabilities for embedded and resource-constrained applications.
 - **[nfc-laboratory](https://github.com/josevcm/nfc-laboratory)** - NFC signal sniffer and protocol decoder using SDR receiver for demodulation and decoding NFC-A, NFC-B, NFC-F and NFC-V signals in real-time up to 424 Kbps. ([nfc-laboratory v3.3.0](https://github.com/josevcm/nfc-laboratory/releases/tag/3.3.0) or more supports HydraSDR RFOne)
+- **[GNSS-SDR](https://github.com/gnss-sdr/gnss-sdr)** - Open-source GNSS receiver for GPS/Galileo/GLONASS
 
 All software supports **Windows, Linux, and macOS** platforms.
 
