@@ -24,6 +24,13 @@ It features **open-source Firmware, Applications, Host Tools with shared librari
 - **Enclosure**: 7075 aerospace aluminum, black anodized
 - **Extensible**: Expandable with extension modules for additional frequency coverage
 
+## Reviews / Analysis
+### Video Reviews
+- **[Tech Minds YouTube 23 July 2025](https://www.youtube.com/watch?v=UvMIeRP8L4s)** - HydraSDR RFOne - A New High Performance Software Defined Radio - Made in the USA! Comprehensive hands-on review covering specifications, unboxing, enclosure disassembly, PCB examination, firmware updating, and real-world testing with SDR++ software.
+
+### Written Reviews & Technical Analysis
+- **[RTL-SDR Blog - Comprehensive Review](https://www.rtl-sdr.com/rtl-sdr-blog-review-of-the-hydrasdr)** - Comparison review between HydraSDR and Airspy R2, covering design similarities, performance testing, shielding analysis, software compatibility, and practical usage scenarios. Independent testing found excellent RF shielding and cleaner spectrum with lower internal spurs compared to the Airspy R2.
+
 ## Supported Software
 
 The HydraSDR RFOne works with a comprehensive ecosystem of SDR applications:
