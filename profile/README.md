@@ -30,7 +30,15 @@ It features **open-source Firmware, Applications, Host Tools with shared librari
 - **[Geerling Engineering YouTube June 28, 2025](https://www.youtube.com/watch?v=tXIPQK28aJY)** - SDR is an incredible tool for understanding radio (featuring HydraSDR RFOne) - Comprehensive 21-minute exploration of Software Defined Radio technology, featuring hands-on demonstrations with multiple SDR devices (RTL-SDR v3/v4, HackRF One, HydraSDR RFOne) Covers FM band analysis, signal spurs, antenna impact, digital carrier decoding, gain optimization, 900 MHz Meshtastic signals, and practical SDR selection guidance for RF engineers and enthusiasts.
 
 ### Written Reviews & Technical Analysis
+
+- **[Zero Retries 0209 Article July 4, 2025](https://www.zeroretries.org/p/zero-retries-0209?open=true#%C2%A7hydrasdr-rfone-new-software-defined-receiver)**
+This July 2025 article discusses the HydraSDR RFOne in the context of amateur radio, praising its 24-1800 MHz coverage (ideal for VHF/UHF bands including 10m at 28 MHz without transverters), 10 MHz sampling, metal enclosure (fits up to three boards for phase-coherent radar/scanning), and included USB-C cable with toroid filters for noise reduction. It's open-source with support for SDR++, SatDump, GNU Radio, GQRX, URH, and LuaRadio via GitHub. Priced at $190, it's positioned as affordable for its class.
+Positive/Enthusiastic Quotes and Feedback:"Another reasonable cost, reasonable performance software-defined receiver option manufactured in the US."
+"Ultra-extensible... capable of containing up to three boards for unique ultra-compact phase-coherent receivers."
+"Qualified for use with the open-source, cross-platform SDR++ application, enhancing its usability."
+
 - **[RTL-SDR Blog - Comprehensive Review July 2, 2025](https://www.rtl-sdr.com/rtl-sdr-blog-review-of-the-hydrasdr)** - Comparison review between HydraSDR and Airspy R2, covering design similarities, performance testing, shielding analysis, software compatibility, and practical usage scenarios. Independent testing found excellent RF shielding and cleaner spectrum with lower internal spurs compared to the Airspy R2.
+
 
 ## Supported Software
 
