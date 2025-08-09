@@ -1,54 +1,71 @@
 # HydraSDR
 
-Welcome to HydraSDR organization main repository - an advanced open-source Software Defined Radio platform.
+Welcome to the official HydraSDR GitHub organization — a high-performance, open-source Software Defined Radio (SDR) platform.
 
-The first product in the HydraSDR lineup is the **HydraSDR RFOne** receiver with 10MHz instantaneous bandwidth sampling capability across 24MHz to 1800MHz.
+The first product in the lineup is the **HydraSDR RFOne**, a powerful SDR receiver offering 10 MHz instantaneous bandwidth and wide frequency coverage from 24 MHz to 1.8 GHz.
 
-**Official Documentation**: [HydraSDR Website](https://hydrasdr.com) | **HydraSDR RFOne specification URL**: https://hydrasdr.com/hydrasdr-rfone  
-**Purchase Information**: In stock at DigiKey - price under 190USD https://www.digikey.com/en/products/detail/benjamin-vernoux/hydrasdr-rfone/26256067  
-**Community**: GitHub Issues for support and development discussions  
-**Creator**: Benjamin VERNOUX
+- **Website**: [https://hydrasdr.com](https://hydrasdr.com)
+- **RFOne Specs**: [https://hydrasdr.com/hydrasdr-rfone](https://hydrasdr.com/hydrasdr-rfone)
+- **Purchase on DigiKey**: [HydraSDR RFOne - Under $190](https://www.digikey.com/en/products/detail/benjamin-vernoux/hydrasdr-rfone/26256067)
+- **Support & Discussion**: Use GitHub Issues across repositories
+- **Creator**: Benjamin VERNOUX
 
-## Project Overview
+---
 
-The HydraSDR RFOne is a professional-grade Software Defined Radio receiver designed and engineered in France, manufactured in the USA.
-It features **open-source Firmware, Applications, Host Tools with shared libraries(DLL)** as a key differentiator from proprietary alternatives.
+## Overview
 
-**Key Features:**
-- **Frequency Range**: 24 MHz to 1.8 GHz continuous coverage
-- **Bandwidth**: 10 MHz instantaneous sampling capability (9MHz alias/image free)
-- **Dynamic Range**: 12-bit ADC @ 20 MSPS providing 80 dB dynamic range (64 dB SNR, 10.4 ENOB)
-- **Microcontroller**: NXP LPC4370 (Cortex-M4F + 2× Cortex-M0, up to 204 MHz)
-- **Tuner**: Rafael Micro R828D
-- **Connectivity**: USB-C (USB 2.0), SMA antenna connector
-- **Enclosure**: 7075 aerospace aluminum, black anodized
-- **Extensible**: Expandable with extension modules for additional frequency coverage
+HydraSDR RFOne is a professional-grade SDR receiver, designed in France and manufactured in the USA. It features a completely open-source stack, including firmware, host tools, and application integrations.
 
-## Reviews / Analysis
-### Video Reviews
-- **[Ham Radio DX YouTube Aug 4, 2025](https://www.youtube.com/watch?v=8GZ7tcCjORQ)** - HydraSDR RFone – Is This the Future of SDR's? With a Software Defined Radio (SDR), you can see the entire radio spectrum — and the HydraSDR RFone takes that to the next level. This brand-new SDR stands out with fully open-source firmware, applications, and host tools,  offering a level of flexibility that most proprietary radios can’t match.
-- **[Tech Minds YouTube July 23, 2025](https://www.youtube.com/watch?v=UvMIeRP8L4s)** - HydraSDR RFOne - A New High Performance Software Defined Radio - Made in the USA! Comprehensive hands-on review covering specifications, unboxing, enclosure disassembly, PCB examination, firmware updating, and real-world testing with SDR++ software.
-- **[Geerling Engineering YouTube June 28, 2025](https://www.youtube.com/watch?v=tXIPQK28aJY)** - SDR is an incredible tool for understanding radio (featuring HydraSDR RFOne) - Comprehensive 21-minute exploration of Software Defined Radio technology, featuring hands-on demonstrations with multiple SDR devices (RTL-SDR v3/v4, HackRF One, HydraSDR RFOne) Covers FM band analysis, signal spurs, antenna impact, digital carrier decoding, gain optimization, 900 MHz Meshtastic signals, and practical SDR selection guidance for RF engineers and enthusiasts.
+### Key Features
 
-### Written Reviews & Technical Analysis
+| Feature | Description |
+|--------|-------------|
+| Frequency Range | 24 MHz to 1.8 GHz continuous |
+| Bandwidth | 10 MHz instantaneous (9 MHz alias/image-free) |
+| ADC | 12-bit @ 20 MSPS |
+| Dynamic Range | Up to 80 dB (64 dB SNR, 10.4 ENOB) |
+| Tuner | Rafael Micro R828D |
+| Microcontroller | NXP LPC4370 (Cortex-M4F + 2× M0, 204 MHz) |
+| Interface | USB-C (USB 2.0) |
+| Antenna | SMA female connector |
+| Enclosure | 7075 aluminum, black anodized |
+| Noise Figure | ~3.5 dB (42–1002 MHz typical) |
+| IIP3 | Up to +35 dBm |
+| Expansion | 2× U.FL (reserved), 18-pin GPIO header |
+| Clock Outputs | 2× configurable up to 160 MHz |
+| Multi-Unit Sync | Supports up to 3 boards in single enclosure |
 
-- **[Zero Retries 0209 Article July 4, 2025](https://www.zeroretries.org/p/zero-retries-0209?open=true#%C2%A7hydrasdr-rfone-new-software-defined-receiver)**
-This July 2025 article discusses the HydraSDR RFOne in the context of amateur radio, praising its 24-1800 MHz coverage (ideal for VHF/UHF bands including 10m at 28 MHz without transverters), 10 MHz sampling, metal enclosure (fits up to three boards for phase-coherent radar/scanning), and included USB-C cable with toroid filters for noise reduction. It's open-source with support for SDR++, SatDump, GNU Radio, GQRX, URH, and LuaRadio via GitHub. Priced at $190, it's positioned as affordable for its class.
-Positive/Enthusiastic Quotes and Feedback:"Another reasonable cost, reasonable performance software-defined receiver option manufactured in the US."
-"Ultra-extensible... capable of containing up to three boards for unique ultra-compact phase-coherent receivers."
-"Qualified for use with the open-source, cross-platform SDR++ application, enhancing its usability."
+---
 
-- **[RTL-SDR Blog - Comprehensive Review July 2, 2025](https://www.rtl-sdr.com/rtl-sdr-blog-review-of-the-hydrasdr)** - Comparison review between HydraSDR and Airspy R2, covering design similarities, performance testing, shielding analysis, software compatibility, and practical usage scenarios. Independent testing found excellent RF shielding and cleaner spectrum with lower internal spurs compared to the Airspy R2.
+## Architecture
 
+- Open-source firmware and tools
+- Cross-platform host tools, shared libraries, and DLLs for Windows,GNU Linux,macOS integration
+- High-quality RF front-end and low-noise design
+- Compact, robust, modular hardware
+- USB-powered with filtering via included ferrite choke cable
 
-## Supported Software
+---
 
-The HydraSDR RFOne works with a comprehensive ecosystem of SDR applications:
+## Software Support
 
-### Primary Software
-- **[SDR++ fork](https://github.com/hydrasdr/SDRPlusPlus)** - SDR++ fork for HydraSDR RFOne (recommended)
-- **[GNU Radio](https://github.com/hydrasdr/gr-osmosdr)** - gr-osmosdr for HydraSDR RFOne for GNU Radio
-- **[SoapyHydraSDR](https://github.com/hydrasdr/SoapyHydraSDR)** - Soapy for HydraSDR RFOne supporting GQRX and other applications
+HydraSDR RFOne is compatible with major open-source SDR applications.
+
+### Primary Applications
+
+- **[SDR++ fork](https://github.com/hydrasdr/SDRPlusPlus)** – HydraSDR fork of the popular cross-platform SDR++ application, featuring native RFOne supportd.
+- **[GNU Radio gr-osmosdr fork](https://github.com/hydrasdr/gr-osmosdr)** – Native HydraSDR RFOne support via the gr-osmosdr source block, enabling integration with GNU Radio Companion (GRC) for creating advanced DSP flowgraphs, prototyping demodulators, and conducting RF experiments in a visual programming environment.
+- **[SoapyHydraSDR](https://github.com/hydrasdr/SoapyHydraSDR)** – SoapySDR hardware support module for RFOne, enabling integration with GQRX, CubicSDR, and any Soapy-compatible SDR application across Windows, Linux, and macOS
+- **[rfone_host](https://github.com/hydrasdr/rfone_host)** – Contains HydraSDR RFOne host tools, shared libraries, and DLLs for Windows/Linux/macOS integration, with comprehensive build instructions for Visual Studio 2019, CMake, and cross-platform development
+
+### Specialized Tools
+
+- **[SatDump fork](https://github.com/hydrasdr/SatDump)** – Satellite decoding (nightly builds supported)
+- **[URH fork](https://github.com/hydrasdr/urh)** – Universal Radio Hacker with RFOne support
+- **[LuaRadio fork](https://github.com/hydrasdr/luaradio)** – LuaRadio framework fork with RFOne support
+- **[nfc-laboratory](https://github.com/josevcm/nfc-laboratory)** - NFC signal sniffer and protocol decoder using SDR receiver for demodulation and decoding NFC-A, NFC-B, NFC-F and NFC-V signals in real-time up to 424 Kbps. ([nfc-laboratory v3.3.0](https://github.com/josevcm/nfc-laboratory/releases/tag/3.3.0) or more supports HydraSDR RFOne)
+- **[ka9q-radio](https://github.com/ka9q/ka9q-radio)** - Multichannel SDR based on fast convolution and IP multicasting (with HydraSDR RFOne support)
+- **[GNSS-SDR](https://github.com/gnss-sdr/gnss-sdr)** - Open-source GNSS receiver for GPS/Galileo/GLONASS
 
 ### Docker Multi-Platform RF Toolbox / SDR
 - **[PentHertz RF-Swift](https://github.com/PentHertz/RF-Swift)** - A comprehensive Docker-based RF toolbox that enables rapid deployment of specialized radio frequency tools across multiple platforms and architectures. Supports Linux, Windows, and macOS on x86_64, ARM64 (Raspberry Pi, Apple Silicon), and RISC-V systems. Features containerized deployment that installs in seconds without modifying your host operating system.
@@ -58,127 +75,117 @@ The HydraSDR RFOne works with a comprehensive ecosystem of SDR applications:
 
 ### GNU/Linux SDR Distribution
 - **[DragonOS](https://sourceforge.net/projects/dragonos-focal/files/)** - A ready-to-use Lubuntu-based Linux distribution specifically designed for software-defined radio enthusiasts and professionals. Provides an out-of-the-box SDR environment with pre-configured tools and drivers for immediate use.
-  - **Available Versions**: 
-    - DragonOS Noble (24.04 LTS)
-    - DragonOS FocalX (22.04 LTS) 
-    - DragonOS Focal (20.04 LTS)
+  - **Available Version with HydraSDR RFOne support**: DragonOS Noble (24.04 LTS)
   - **Architecture**: x86_64 support
   - **Hardware Support**: HydraSDR RFOne compatibility (DragonOS Noble R5 and later)
   - **Latest Release**: DragonOS Noble R5 (July 3, 2025)
 
-### Specialized Applications  
-- **[SatDump](https://github.com/SatDump/SatDump/releases/tag/nightly)** - Satellite signal decoding and processing (nightly build supports HydraSDR RFOne)
-- **[URH (Universal Radio Hacker)](https://github.com/hydrasdr/urh)** - Repository contains the Universal Radio Hacker fork with HydraSDR RFOne support for protocol analysis and signal intelligence applications.
-- **[luaradio](https://github.com/hydrasdr/luaradio)** - Repository contains the LuaRadio framework fork with HydraSDR RFOne providing lightweight signal processing capabilities for embedded and resource-constrained applications.
-- **[nfc-laboratory](https://github.com/josevcm/nfc-laboratory)** - NFC signal sniffer and protocol decoder using SDR receiver for demodulation and decoding NFC-A, NFC-B, NFC-F and NFC-V signals in real-time up to 424 Kbps. ([nfc-laboratory v3.3.0](https://github.com/josevcm/nfc-laboratory/releases/tag/3.3.0) or more supports HydraSDR RFOne)
-- **[ka9q-radio](https://github.com/ka9q/ka9q-radio)** - Multichannel SDR based on fast convolution and IP multicasting (with HydraSDR RFOne support)
-- **[GNSS-SDR](https://github.com/gnss-sdr/gnss-sdr)** - Open-source GNSS receiver for GPS/Galileo/GLONASS
+---
+## Quick Start
 
-All software supports **Windows, Linux, and macOS** platforms.
+### Requirements
 
-## Repository Structure
+* **Operating System:**
+  * Windows 8.1 or later
+  * GNU/Linux (Ubuntu 20.04+, Debian 11+)
+  * macOS 10.14+
+  * Android 9+ with OpenGL 2.1+
+* **USB Port:** USB 2.0 or higher
+* **Antenna:** SMA-compatible **male** connector
 
-The HydraSDR project consists of 8 specialized repositories supporting the HydraSDR RFOne and future HydraSDR products:
+---
 
-[**rfone_host**](https://github.com/hydrasdr/rfone_host) repository contains HydraSDR RFOne Host Tools, shared libraries, and DLLs for Windows/Linux/macOS integration with comprehensive build instructions for Visual Studio 2019, CMake, and cross-platform development.
+### Setup for Windows, GNU/Linux, macOS and Android
 
-[**rfone_fw**](https://github.com/hydrasdr/rfone_fw) repository contains the open-source firmware for HydraSDR RFOne, built with Python-based components and standard GCC toolchains.
+1. **Connect the device**
+   Connect the HydraSDR RFOne to your computer using the **USB-C to USB-A cable included with the HydraSDR RFOne**.
 
-[**SDRPlusPlus**](https://github.com/hydrasdr/SDRPlusPlus) repository contains the SDR++ fork with native HydraSDR RFOne support and optimized performance configurations.
+   > For Android, connect via an **OTG adapter** that supports **USB 2.0 High Speed** and provides **power**.
 
-[**SoapyHydraSDR**](https://github.com/hydrasdr/SoapyHydraSDR) repository contains the SoapyHydraSDR plugin enabling HydraSDR RFOne compatibility with GQRX, CubicSDR, and other SoapyHydraSDR-based applications.
+2. **Attach the antenna**
+   Connect your antenna to the **ANT** port.
 
-[**gr-osmosdr**](https://github.com/hydrasdr/gr-osmosdr) repository contains the GNU Radio OsmoSDR source block with HydraSDR RFOne support for integration with GNU Radio Companion and custom flowgraphs.
+   > The port uses an SMA female connector; your antenna must have an SMA male connector.
 
-[**SatDump**](https://github.com/hydrasdr/SatDump) repository contains the forked SatDump software with native HydraSDR RFOne support for satellite signal decoding and weather satellite image processing.
+3. **Install SDR++**
+   
+   Download the [HydraSDR SDR++ fork](https://github.com/hydrasdr/SDRPlusPlus/releases/tag/nightly) for your operating system and install it.
 
-[**urh**](https://github.com/hydrasdr/urh) repository contains the Universal Radio Hacker fork with HydraSDR RFOne support for protocol analysis and signal intelligence applications.
+4. **Launch and configure**
+   
+   Open SDR++, select **HydraSDR RFOne** as the device, then set your desired sample rate and gain
 
-[**luaradio**](https://github.com/hydrasdr/luaradio) repository contains the LuaRadio framework fork providing lightweight signal processing capabilities for embedded and resource-constrained applications.
+   > **Tip:** A gain setting of **Linear 12** is a good starting point.
+---
 
-## Quick Start Guide
+## Real-World Reviews
 
-### System Requirements
-- **Operating System**: Windows 8.1+, Linux (Ubuntu 20.04+), or macOS 10.14+
-- **USB Port**: USB 2.0 or higher
-- **Antenna**: SMA connector compatible
+### 🎥 Video Reviews
 
-### Installation
+- **[Ham Radio DX YouTube Aug 4, 2025](https://www.youtube.com/watch?v=8GZ7tcCjORQ)** - HydraSDR RFone – Is This the Future of SDR's? With a Software Defined Radio (SDR), you can see the entire radio spectrum — and the HydraSDR RFone takes that to the next level. This brand-new SDR stands out with fully open-source firmware, applications, and host tools,  offering a level of flexibility that most proprietary radios can’t match.
+- **[Tech Minds YouTube July 23, 2025](https://www.youtube.com/watch?v=UvMIeRP8L4s)** - HydraSDR RFOne - A New High Performance Software Defined Radio - Made in the USA! Comprehensive hands-on review covering specifications, unboxing, enclosure disassembly, PCB examination, firmware updating, and real-world testing with SDR++ software.
+- **[Geerling Engineering YouTube June 28, 2025](https://www.youtube.com/watch?v=tXIPQK28aJY)** - SDR is an incredible tool for understanding radio (featuring HydraSDR RFOne) - Comprehensive 21-minute exploration of Software Defined Radio technology, featuring hands-on demonstrations with multiple SDR devices (RTL-SDR v3/v4, HackRF One, HydraSDR RFOne) Covers FM band analysis, signal spurs, antenna impact, digital carrier decoding, gain optimization, 900 MHz Meshtastic signals, and practical SDR selection guidance for RF engineers and enthusiasts.
 
-**Windows Setup:**
-1. Connect your HydraSDR RFOne using a USB-C cable for power and data (it is recommended to use the USB-C / USB-A cable provided with the HydraSDR RFOne).
-2. Download pre-built SDR++ fork with HydraSDR RFOne support from [nightly releases](https://github.com/hydrasdr/SDRPlusPlus/releases/tag/nightly)
+### 📝 Articles
 
-**Linux Setup:**
-1. Connect your HydraSDR RFOne using a USB-C cable for power and data (it is recommended to use the USB-C / USB-A cable provided with the HydraSDR RFOne).
-2. Download and Install the HydraSDR RFOne package from [GitHub releases](https://github.com/hydrasdr/rfone_host/releases)
-3. Download pre-built SDR++ fork (for your GNU/Linux distribution) with HydraSDR RFOne support from [nightly releases](https://github.com/hydrasdr/SDRPlusPlus/releases/tag/nightly)
+- **[Zero Retries 0209 Article July 4, 2025](https://www.zeroretries.org/p/zero-retries-0209?open=true#%C2%A7hydrasdr-rfone-new-software-defined-receiver)**
+This July 2025 article discusses the HydraSDR RFOne in the context of amateur radio, praising its 24-1800 MHz coverage (ideal for VHF/UHF bands including 10m at 28 MHz without transverters), 10 MHz sampling, metal enclosure (fits up to three boards for phase-coherent radar/scanning), and included USB-C cable with toroid filters for noise reduction. It's open-source with support for SDR++, SatDump, GNU Radio, GQRX, URH, and LuaRadio via GitHub. Priced at $190, it's positioned as affordable for its class.
+Positive/Enthusiastic Quotes and Feedback:"Another reasonable cost, reasonable performance software-defined receiver option manufactured in the US."
+"Ultra-extensible... capable of containing up to three boards for unique ultra-compact phase-coherent receivers."
+"Qualified for use with the open-source, cross-platform SDR++ application, enhancing its usability."
 
-**macOS Setup:**
-1. Connect your HydraSDR RFOne using a USB-C cable for power and data (it is recommended to use the USB-C / USB-A cable provided with the HydraSDR RFOne).
-2. Download the HydraSDR RFOne macOS package from [GitHub releases](https://github.com/hydrasdr/rfone_host/releases)
-3. Download pre-built SDR++ fork (for macOS) with HydraSDR RFOne support from [nightly releases](https://github.com/hydrasdr/SDRPlusPlus/releases/tag/nightly)
+- **[RTL-SDR Blog - Comprehensive Review July 2, 2025](https://www.rtl-sdr.com/rtl-sdr-blog-review-of-the-hydrasdr)** - Comparison review between HydraSDR and Airspy R2, covering design similarities, performance testing, shielding analysis, software compatibility, and practical usage scenarios. Independent testing found excellent RF shielding and cleaner spectrum with lower internal spurs compared to the Airspy R2.
 
-### First Use
-1. Connect HydraSDR RFOne via USB-C / USB-A cable
-3. Connect your antenna to the ANT port.
-   * The antenna must have an SMA male connector to mate with the device’s SMA female port.   
-4. Launch SDR++ fork or your preferred SDR application
-5. Select HydraSDR RFOne as input device
-6. Configure the sample rate (up to 10 MSPS), frequency, and gain settings (Linear 12 is recommended as a starting point), then start RX streaming.
+---
 
-### Software Installation
-- **SDR++**: Download HydraSDR RFOne-optimized fork from [nightly releases](https://github.com/hydrasdr/SDRPlusPlus/releases/tag/nightly)
-- **GNU Radio**: Install dedicated gr-osmosdr with native HydraSDR RFOne support from [releases](https://github.com/hydrasdr/gr-osmosdr/releases)
-- **SoapyHydraSDR Applications**: Install SoapyHydraSDR plugin, then use with GQRX or other compatible software
+## 📁 Repository Structure
 
-## Technical Specifications
+This organization consists of several repositories:
 
-**RF Performance:**
-- Frequency Range: 24 MHz to 1.8 GHz (continuous)
-- Instantaneous Bandwidth: 10 MHz (9MHz alias/image free)
-- ADC Resolution: 12-bit
-- Sample Rate: Up to 10 MSPS output
-- Dynamic Range: Up to 80 dB
-- Noise Figure: Optimized for low-noise performance
+| Repository | Description |
+|-----------|-------------|
+| [rfone_host](https://github.com/hydrasdr/rfone_host) | Host tools, shared libraries, drivers |
+| [rfone_fw](https://github.com/hydrasdr/rfone_fw) | Open-source firmware |
+| [SDRPlusPlus fork](https://github.com/hydrasdr/SDRPlusPlus) | SDR++ fork with RFOne support |
+| [SoapyHydraSDR](https://github.com/hydrasdr/SoapyHydraSDR) | SoapySDR plugin |
+| [gr-osmosdr fork](https://github.com/hydrasdr/gr-osmosdr) | GNU Radio block |
+| [SatDump fork](https://github.com/hydrasdr/SatDump) | Satellite decoding |
+| [urh fork](https://github.com/hydrasdr/urh) | Universal Radio Hacker fork |
+| [luaradio fork](https://github.com/hydrasdr/luaradio) | LuaRadio fork for embedded DSP |
 
-**Hardware Architecture:**
-- MCU: NXP LPC4370 (1× Cortex-M4F + 2× Cortex-M0 @ up to 204 MHz)
-- Tuner: Rafael Micro R828D
-- Interface: USB-C (USB 2.0 compatible)
-- Enclosure: 7075 aerospace aluminum with black anodized finish
-- Expansion: Two unused uFL connectors for advanced applications
-- Multi-unit: Oversized enclosure supports up to 3 boards
+---
 
-**Key Features:**
-- Open-source firmware and API host tools enabling community development
-- High Quality PCB layout with superior RF front-end design
-- State of the art filtering and thermal management
-- Robust USB-C connector for modern connectivity
-- Made in USA manufacturing with European design expertise
+## 🛠️ Contributing & Development
 
-## HydraSDR RFOne Availability
+HydraSDR is an open platform. We welcome contributions, patches, documentation improvements, and feedback.
 
-The HydraSDR RFOne is available on DigiKey.
-**Pricing**: Under 190USD  
-**Availability**: In stock at [DigiKey](https://www.digikey.com/en/products/detail/benjamin-vernoux/hydrasdr-rfone/26256067) with worldwide shipping  
-**Documentation**: Full specifications at https://hydrasdr.com/hydrasdr-rfone
+- Use GitHub Issues for bug reports, questions, and feature requests
+- See each repo for contribution guidelines
+- Code is cross-platform and CMake-friendly
+- Firmware built with GCC-based toolchains
 
-## Development and Contributions
+---
 
-The HydraSDR project welcomes community contributions across all repositories.
-Each repository contains specific contribution guidelines and coding standards.
-For technical support, feature requests, or bug reports, please use the GitHub Issues system in the relevant repository.
+## 📦 Availability
 
-**Development Tools:**
-- Open-source firmware built with standard GCC toolchains
-- Cross-platform host software supporting Windows / GNU Linux(major distribution) / macOS (arm/intel)
-- Comprehensive build systems with CMake integration
+- **In Stock**: [HydraSDR RFOne DigiKey Product Page](https://www.digikey.com/en/products/detail/benjamin-vernoux/hydrasdr-rfone/26256067)
+- **Price**: Under $190 USD
+- **Shipping**: Global
 
-**Community Resources:**
-- GitHub Issues for technical support and feature requests
-- Active development with regular updates and improvements
-- Integration with existing SDR software ecosystem
-- Educational resources and documentation for developers
+---
 
-The HydraSDR project provides enhanced capabilities through open-source development and community collaboration, starting with the RFOne and expanding to future HydraSDR products.
+## 📚 Resources
+
+- 📄 Datasheet: Comprehensive specs and details for HydraSDR RFOne [https://hydrasdr.com/hydrasdr-rfone](https://hydrasdr.com/hydrasdr-rfone)
+- 🧰 SDK & Tools: Software development kits, utilities, and official tools [https://github.com/hydrasdr](https://github.com/hydrasdr)
+- 🧠 Community & Support: 
+  - General discussions: [hydrasdr/discussions](https://github.com/orgs/hydrasdr/discussions)
+  - Report issues or feature requests in specific repositories:
+    - [rfone_host issues](https://github.com/hydrasdr/rfone_host/issues)
+    - [rfone_fw issues](https://github.com/hydrasdr/rfone_fw/issues)
+    - [SDRPlusPlus fork issues](https://github.com/hydrasdr/SDRPlusPlus/issues)
+    - …and more on the HydraSDR GitHub
+
+---
+
+HydraSDR — Open-source radio done right.
