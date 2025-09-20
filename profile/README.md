@@ -54,6 +54,7 @@ HydraSDR RFOne is compatible with major open-source SDR applications.
 ### Primary Applications
 
 - **[SDR++ fork](https://github.com/hydrasdr/SDRPlusPlus)** – HydraSDR fork of the popular cross-platform SDR++ application, featuring native RFOne supportd.
+  - Official SDR++ now support HydraSDR RFOne in nightly (Since 5 Sept 2025) see https://github.com/AlexandreRouma/SDRPlusPlus/releases/tag/nightly
 - **[GNU Radio gr-osmosdr fork](https://github.com/hydrasdr/gr-osmosdr)** – Native HydraSDR RFOne support via the gr-osmosdr source block, enabling integration with GNU Radio Companion (GRC) for creating advanced DSP flowgraphs, prototyping demodulators, and conducting RF experiments in a visual programming environment.
 - **[SoapyHydraSDR](https://github.com/hydrasdr/SoapyHydraSDR)** – SoapySDR hardware support module for RFOne, enabling integration with GQRX, CubicSDR, and any Soapy-compatible SDR application across Windows, Linux, and macOS
 - **[rfone_host](https://github.com/hydrasdr/rfone_host)** – Contains HydraSDR RFOne host tools, shared libraries, and DLLs for Windows/Linux/macOS integration, with comprehensive build instructions for Visual Studio 2019, CMake, and cross-platform development
