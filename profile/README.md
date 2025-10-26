@@ -126,6 +126,11 @@ HydraSDR RFOne is compatible with major open-source SDR applications.
 
 ### 🎥 Video Reviews
 
+- **[Radio Bunker YouTube 26 Oct, 2025](https://www.youtube.com/watch?v=5HKlgXaHoF8)** -  HydraSDR RFOne: THE NEW HIGH-PERFORMANCE SDR RECEIVER
+  - In this review, we take an in-depth look at one of the most advanced SDR receivers available today.
+  - Precision, sensitivity, and a design designed for radio amateurs who demand maximum reception performance.
+  - We analyze its signal quality, processing power, and all the features that make it a true technological gem.
+  - From its interface to its field performance, the HydraSDR RFOne demonstrates why it's generating so much buzz in the SDR community.
 - **[Penthertz YouTube Aug 14, 2025](https://www.youtube.com/watch?v=y5QCNphhGP4)** - HydraSDR RFOne: Setup & Testing using RF Swift (SDR++, URH, GNU Radio, OsmoSDR, LuaRadio)
 - **[Ham Radio DX YouTube Aug 4, 2025](https://www.youtube.com/watch?v=8GZ7tcCjORQ)** - HydraSDR RFOne – Is This the Future of SDR's? With a Software Defined Radio (SDR), you can see the entire radio spectrum — and the HydraSDR RFone takes that to the next level. This brand-new SDR stands out with fully open-source firmware, applications, and host tools,  offering a level of flexibility that most proprietary radios can’t match.
 - **[Tech Minds YouTube July 23, 2025](https://www.youtube.com/watch?v=UvMIeRP8L4s)** - HydraSDR RFOne - A New High Performance Software Defined Radio - Made in the USA! Comprehensive hands-on review covering specifications, unboxing, enclosure disassembly, PCB examination, firmware updating, and real-world testing with SDR++ software.
