@@ -64,6 +64,7 @@ HydraSDR RFOne is compatible with major open-source SDR applications.
 
 ### Specialized Tools
 
+- **[kalibrate-hydrasdr](https://github.com/hydrasdr/kalibrate-hydrasdr)** - Kalibrate-HydraSDR - GSM-based frequency calibration tool for HydraSDR RFOne. Scans GSM base stations to measure and correct the internal TCXO frequency offset with precision PPM/PPB measurements.
 - **[SatDump fork](https://github.com/hydrasdr/SatDump)** – Satellite decoding (nightly builds supported)
 - **[URH fork](https://github.com/hydrasdr/urh)** – Universal Radio Hacker with RFOne support
 - **[LuaRadio fork](https://github.com/hydrasdr/luaradio)** – LuaRadio framework fork with RFOne support
