@@ -57,6 +57,7 @@ HydraSDR RFOne is compatible with major open-source SDR applications.
   - Official SDR++ now support HydraSDR RFOne in nightly (Since 5 Sept 2025) see https://github.com/AlexandreRouma/SDRPlusPlus/releases/tag/nightly
 - **[RFAnalyzer](https://github.com/demantz/RFAnalyzer)** – RF Analyzer is an Android app for real-time spectrum analysis using SDR hardware. It displays live FFT and waterfall plots of the radio frequency (RF) spectrum and supports demodulation, recording, and more, support HydraSDR RFOne (Since 6 Oct 2025)
 - **[GNU Radio gr-osmosdr fork](https://github.com/hydrasdr/gr-osmosdr)** – Native HydraSDR RFOne support via the gr-osmosdr source block, enabling integration with GNU Radio Companion (GRC) for creating advanced DSP flowgraphs, prototyping demodulators, and conducting RF experiments in a visual programming environment.
+   - **[GNURadio companion graph files](https://github.com/wb2ifs/HydraSDR-graphs)** - GNURadio companion graph files for the HydraSDR RFOne receiver. They are based on the demonstration FM receiver in this tutorial.
 - **[SoapyHydraSDR](https://github.com/hydrasdr/SoapyHydraSDR)** – SoapySDR hardware support module for RFOne, enabling integration with GQRX, CubicSDR, and any Soapy-compatible SDR application across Windows, Linux, and macOS
 
 - **[rfone_host](https://github.com/hydrasdr/rfone_host)** – HydraSDR RFOne host tools, shared libraries, and DLLs for Windows/Linux/macOS integration, with comprehensive build instructions for Visual Studio 2019, CMake, and cross-platform development
