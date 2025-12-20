@@ -73,6 +73,7 @@ HydraSDR RFOne is compatible with major open-source SDR applications.
 - **[ka9q-radio](https://github.com/ka9q/ka9q-radio)** - Multichannel SDR based on fast convolution and IP multicasting with HydraSDR RFOne support
 - **[AIS-catcher fork](https://github.com/hydrasdr/AIS-catcher)** - AIS-catcher: A multi-platform AIS Receiver fork with native HydraSDR RFOne support
 - **[GNSS-SDRLIB-PVT](https://github.com/AgileEngineeringLLC/GNSS-SDRLIB-PVT_WBS_121625)** - This is a significantly-modifed version of GNSS-SDRLIB. Instead of requiring a TCP link to RTKLIB for positioning, it has its own least squares solver built-in with native HydraSDR RFOne support
+- **[SatNOGS](https://satnogs.org)** - SatNOGS Client 2.1 docker container updated with gr-satellites 5.8 and HydraSDR RFOne SDR support
 - **[GNSS-SDR](https://github.com/gnss-sdr/gnss-sdr)** - Open-source GNSS receiver for GPS/Galileo/GLONASS
 
 ### Docker Multi-Platform RF Toolbox / SDR
