@@ -67,10 +67,12 @@ HydraSDR RFOne is compatible with major open-source SDR applications.
 
 - **[kalibrate-hydrasdr](https://github.com/hydrasdr/kalibrate-hydrasdr)** - Kalibrate-HydraSDR - GSM-based frequency calibration tool for HydraSDR RFOne. Scans GSM base stations to measure and correct the internal TCXO frequency offset with precision PPM/PPB measurements.
 - **[SatDump fork](https://github.com/hydrasdr/SatDump)** – Satellite decoding (nightly builds supported)
-- **[URH fork](https://github.com/hydrasdr/urh)** – Universal Radio Hacker with RFOne support
-- **[LuaRadio fork](https://github.com/hydrasdr/luaradio)** – LuaRadio framework fork with RFOne support
+- **[URH fork](https://github.com/hydrasdr/urh)** – Universal Radio Hacker with HydraSDR RFOne support
+- **[LuaRadio fork](https://github.com/hydrasdr/luaradio)** – LuaRadio framework fork with HydraSDR RFOne support
 - **[nfc-laboratory](https://github.com/josevcm/nfc-laboratory)** - NFC signal sniffer and protocol decoder using SDR receiver for demodulation and decoding NFC-A, NFC-B, NFC-F and NFC-V signals in real-time up to 424 Kbps. ([nfc-laboratory v3.3.0](https://github.com/josevcm/nfc-laboratory/releases/tag/3.3.0) or more supports HydraSDR RFOne)
-- **[ka9q-radio](https://github.com/ka9q/ka9q-radio)** - Multichannel SDR based on fast convolution and IP multicasting (with HydraSDR RFOne support)
+- **[ka9q-radio](https://github.com/ka9q/ka9q-radio)** - Multichannel SDR based on fast convolution and IP multicasting with HydraSDR RFOne support
+- **[AIS-catcher fork](https://github.com/hydrasdr/AIS-catcher)** - AIS-catcher: A multi-platform AIS Receiver fork with native HydraSDR RFOne support
+- **[GNSS-SDRLIB-PVT](https://github.com/AgileEngineeringLLC/GNSS-SDRLIB-PVT_WBS_121625)** - This is a significantly-modifed version of GNSS-SDRLIB. Instead of requiring a TCP link to RTKLIB for positioning, it has its own least squares solver built-in with native HydraSDR RFOne support
 - **[GNSS-SDR](https://github.com/gnss-sdr/gnss-sdr)** - Open-source GNSS receiver for GPS/Galileo/GLONASS
 
 ### Docker Multi-Platform RF Toolbox / SDR
