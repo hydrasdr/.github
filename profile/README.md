@@ -51,6 +51,9 @@ HydraSDR RFOne is a professional-grade SDR receiver, designed in France and manu
 
 HydraSDR RFOne is compatible with major open-source SDR applications.
 
+- **[hydrasdr-host](https://github.com/hydrasdr/hydrasdr-host)** – HydraSDR Software Defined Radio Host Tools, shared libraries, and DLLs for Windows/Linux/macOS integration, with comprehensive build instructions for Visual Studio 2019, CMake, and cross-platform development
+- **[rfone_fw](https://github.com/hydrasdr/rfone_fw)** - HydraSDR RFOne Open-source firmware
+
 ### Primary Applications
 
 - **[SDR++ fork](https://github.com/hydrasdr/SDRPlusPlus)** – HydraSDR fork of the popular cross-platform SDR++ application, featuring native RFOne supportd.
@@ -59,9 +62,6 @@ HydraSDR RFOne is compatible with major open-source SDR applications.
 - **[GNU Radio gr-osmosdr fork](https://github.com/hydrasdr/gr-osmosdr)** – Native HydraSDR RFOne support via the gr-osmosdr source block, enabling integration with GNU Radio Companion (GRC) for creating advanced DSP flowgraphs, prototyping demodulators, and conducting RF experiments in a visual programming environment.
    - **[GNURadio companion graph files](https://github.com/wb2ifs/HydraSDR-graphs)** - GNURadio companion graph files for the HydraSDR RFOne receiver. They are based on the demonstration FM receiver in this tutorial.
 - **[SoapyHydraSDR](https://github.com/hydrasdr/SoapyHydraSDR)** – SoapySDR hardware support module for RFOne, enabling integration with GQRX, CubicSDR, and any Soapy-compatible SDR application across Windows, Linux, and macOS
-
-- **[rfone_host](https://github.com/hydrasdr/rfone_host)** – HydraSDR RFOne host tools, shared libraries, and DLLs for Windows/Linux/macOS integration, with comprehensive build instructions for Visual Studio 2019, CMake, and cross-platform development
-- **[rfone_fw](https://github.com/hydrasdr/rfone_fw)** - HydraSDR RFOne Open-source firmware
 
 ### Specialized Tools
 
@@ -130,7 +130,7 @@ HydraSDR RFOne is compatible with major open-source SDR applications.
 
 ## Real-World Reviews
 
-### 🎥 Video Reviews
+### Video Reviews
 
 - **[Radio Bunker YouTube 26 Oct, 2025](https://www.youtube.com/watch?v=5HKlgXaHoF8)** -  HydraSDR RFOne: THE NEW HIGH-PERFORMANCE SDR RECEIVER
   - In this review, we take an in-depth look at one of the most advanced SDR receivers available today.
@@ -142,7 +142,7 @@ HydraSDR RFOne is compatible with major open-source SDR applications.
 - **[Tech Minds YouTube July 23, 2025](https://www.youtube.com/watch?v=UvMIeRP8L4s)** - HydraSDR RFOne - A New High Performance Software Defined Radio - Made in the USA! Comprehensive hands-on review covering specifications, unboxing, enclosure disassembly, PCB examination, firmware updating, and real-world testing with SDR++ software.
 - **[Geerling Engineering YouTube June 28, 2025](https://www.youtube.com/watch?v=tXIPQK28aJY)** - SDR is an incredible tool for understanding radio (featuring HydraSDR RFOne) - Comprehensive 21-minute exploration of Software Defined Radio technology, featuring hands-on demonstrations with multiple SDR devices (RTL-SDR v3/v4, HackRF One, HydraSDR RFOne) Covers FM band analysis, signal spurs, antenna impact, digital carrier decoding, gain optimization, 900 MHz Meshtastic signals, and practical SDR selection guidance for RF engineers and enthusiasts.
 
-### 📝 Articles
+### Articles
 
 - **[Zero Retries 0209 Article July 4, 2025](https://www.zeroretries.org/p/zero-retries-0209?open=true#%C2%A7hydrasdr-rfone-new-software-defined-receiver)**
 This July 2025 article discusses the HydraSDR RFOne in the context of amateur radio, praising its 24-1800 MHz coverage (ideal for VHF/UHF bands including 10m at 28 MHz without transverters), 10 MHz sampling, metal enclosure (fits up to three boards for phase-coherent radar/scanning), and included USB-C cable with toroid filters for noise reduction. It's open-source with support for SDR++, SatDump, GNU Radio, GQRX, URH, and LuaRadio via GitHub. Priced at $190, it's positioned as affordable for its class.
@@ -154,24 +154,7 @@ Positive/Enthusiastic Quotes and Feedback:"Another reasonable cost, reasonable p
 
 ---
 
-## 📁 Repository Structure
-
-This organization consists of several repositories:
-
-| Repository | Description |
-|-----------|-------------|
-| [rfone_host](https://github.com/hydrasdr/rfone_host) | Host tools, shared libraries, drivers |
-| [rfone_fw](https://github.com/hydrasdr/rfone_fw) | Open-source firmware |
-| [SDRPlusPlus fork](https://github.com/hydrasdr/SDRPlusPlus) | SDR++ fork with RFOne support |
-| [SoapyHydraSDR](https://github.com/hydrasdr/SoapyHydraSDR) | SoapySDR plugin |
-| [gr-osmosdr fork](https://github.com/hydrasdr/gr-osmosdr) | GNU Radio block |
-| [SatDump fork](https://github.com/hydrasdr/SatDump) | Satellite decoding |
-| [urh fork](https://github.com/hydrasdr/urh) | Universal Radio Hacker fork |
-| [luaradio fork](https://github.com/hydrasdr/luaradio) | LuaRadio fork for embedded DSP |
-
----
-
-## 🛠️ Contributing & Development
+## Contributing & Development
 
 HydraSDR is an open platform. We welcome contributions, patches, documentation improvements, and feedback.
 
@@ -182,7 +165,7 @@ HydraSDR is an open platform. We welcome contributions, patches, documentation i
 
 ---
 
-## 📦 Availability
+## Availability
 
 - **In Stock**: [HydraSDR RFOne DigiKey Product Page](https://www.digikey.com/en/products/detail/benjamin-vernoux/hydrasdr-rfone/26256067)
 - **Price**: Under $190 USD
@@ -190,11 +173,11 @@ HydraSDR is an open platform. We welcome contributions, patches, documentation i
 
 ---
 
-## 📚 Resources
+## Resources
 
-- 📄 Datasheet: Comprehensive specs and details for HydraSDR RFOne [https://hydrasdr.com/hydrasdr-rfone](https://hydrasdr.com/hydrasdr-rfone)
-- 🧰 SDK & Tools: Software development kits, utilities, and official tools [https://github.com/hydrasdr](https://github.com/hydrasdr)
-- 🧠 Community & Support: 
+- Datasheet: Comprehensive specs and details for HydraSDR RFOne [https://hydrasdr.com/hydrasdr-rfone](https://hydrasdr.com/hydrasdr-rfone)
+- SDK & Tools: Software development kits, utilities, and official tools [https://github.com/hydrasdr](https://github.com/hydrasdr)
+- Community & Support: 
   - General discussions: [hydrasdr/discussions](https://github.com/orgs/hydrasdr/discussions)
   - Report issues or feature requests in specific repositories:
     - [rfone_host issues](https://github.com/hydrasdr/rfone_host/issues)
