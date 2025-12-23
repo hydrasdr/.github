@@ -180,7 +180,7 @@ HydraSDR is an open platform. We welcome contributions, patches, documentation i
 - Community & Support: 
   - General discussions: [hydrasdr/discussions](https://github.com/orgs/hydrasdr/discussions)
   - Report issues or feature requests in specific repositories:
-    - [rfone_host issues](https://github.com/hydrasdr/rfone_host/issues)
+    - [hydrasdr-host issues](https://github.com/hydrasdr/hydrasdr-host/issues)
     - [rfone_fw issues](https://github.com/hydrasdr/rfone_fw/issues)
     - [SDRPlusPlus fork issues](https://github.com/hydrasdr/SDRPlusPlus/issues)
     - …and more on the HydraSDR GitHub
