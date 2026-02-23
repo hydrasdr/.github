@@ -64,7 +64,7 @@ HydraSDR RFOne is compatible with major open-source SDR applications.
 - **[SoapyHydraSDR](https://github.com/hydrasdr/SoapyHydraSDR)** – SoapySDR hardware support module for RFOne, enabling integration with GQRX, CubicSDR, and any Soapy-compatible SDR application across Windows, Linux, and macOS
 
 ### Specialized Tools
-
+- **[hydrasdr_433](https://github.com/hydrasdr/hydrasdr_433)** ([nightly builds](https://github.com/hydrasdr/hydrasdr_433/releases/tag/nightly)) – Wideband ISM data receiver based on [rtl_433](https://github.com/merbanan/rtl_433/), optimized for HydraSDR RFOne. Decodes 290+ protocols on 433.92 MHz, 868 MHz, 315 MHz, 345 MHz, and 915 MHz ISM bands. Features native CF32 pipeline, polyphase filter bank channelizer with wideband scanning mode (monitor an entire ISM band simultaneously), runtime SIMD dispatch (SSE2/AVX2/AVX-512/NEON/SVE), cross-channel deduplication, and per-channel power/noise tracking. Builds on Windows, Linux, and macOS.
 - **[kalibrate-hydrasdr](https://github.com/hydrasdr/kalibrate-hydrasdr)** - Kalibrate-HydraSDR - GSM-based frequency calibration tool for HydraSDR RFOne. Scans GSM base stations to measure and correct the internal TCXO frequency offset with precision PPM/PPB measurements.
 - **[SatDump fork](https://github.com/hydrasdr/SatDump)** – Satellite decoding (nightly builds supported)
 - **[URH fork](https://github.com/hydrasdr/urh)** – Universal Radio Hacker with HydraSDR RFOne support
