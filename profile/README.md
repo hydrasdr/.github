@@ -71,8 +71,8 @@ The first product in the lineup is the **HydraSDR RFOne** — a professional-gra
 | **[SatDump fork](https://github.com/hydrasdr/SatDump)** | Satellite signal decoding with nightly build support |
 | **[URH fork](https://github.com/hydrasdr/urh)** | Universal Radio Hacker — wireless protocol investigation with native RFOne support |
 | **[LuaRadio fork](https://github.com/hydrasdr/luaradio)** | Lightweight, embeddable SDR framework with RFOne support |
-| **[AIS-catcher fork](https://github.com/hydrasdr/AIS-catcher)** | Multi-platform AIS receiver with native RFOne support |
-| **[SDRTrunk fork](https://github.com/hydrasdr/sdrtrunk)** | Cross-platform trunked radio decoder/monitor/recorder with native RFOne support |
+| **[AIS-catcher fork](https://github.com/hydrasdr/AIS-catcher)** ([nightly](https://github.com/hydrasdr/AIS-catcher/releases/tag/Edge)) | Multi-platform AIS receiver with native RFOne support |
+| **[SDRTrunk fork](https://github.com/hydrasdr/sdrtrunk)** ([nightly](https://github.com/hydrasdr/sdrtrunk/releases/tag/nightly)) | Cross-platform trunked radio decoder/monitor/recorder with native (JNI) HydraSDR support |
 | **[ka9q-radio](https://github.com/ka9q/ka9q-radio)** | Multichannel SDR based on fast convolution and IP multicasting |
 | **[nfc-laboratory](https://github.com/josevcm/nfc-laboratory)** | NFC signal sniffer and protocol decoder — NFC-A/B/F/V up to 424 Kbps in real-time (v3.3.0+) |
 | **[GNSS-SDRLIB-PVT](https://github.com/AgileEngineeringLLC/GNSS-SDRLIB-PVT_WBS_121625)** | GNSS receiver with built-in least squares solver and native RFOne support |
