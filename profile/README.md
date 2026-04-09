@@ -78,6 +78,7 @@ The first product in the lineup is the **HydraSDR RFOne** — a professional-gra
 | **[GNSS-SDRLIB-PVT](https://github.com/AgileEngineeringLLC/GNSS-SDRLIB-PVT_WBS_121625)** | GNSS receiver with built-in least squares solver and native RFOne support |
 | **[GNSS-SDR](https://github.com/gnss-sdr/gnss-sdr)** | Open-source GNSS receiver for GPS/Galileo/GLONASS |
 | **[SatNOGS](https://satnogs.org)** | SatNOGS Client 2.1 docker container with gr-satellites 5.8 and RFOne support |
+| **[Inspectrum NG](https://github.com/hydrasdr/inspectrum)** ([nightly](https://github.com/hydrasdr/inspectrum/releases/tag/nightly)) | Inspectrum NG (next generation) is a fork of inspectrum for analysing captured signals from software-defined radio receivers. |
 
 ### Platforms & Distributions
 
