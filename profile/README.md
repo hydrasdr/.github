@@ -16,7 +16,7 @@ The first product in the lineup is the **HydraSDR RFOne** — a professional-gra
 | Parameter | Value |
 |:--|:--|
 | **Frequency Range** | 24 MHz – 1.8 GHz continuous |
-| **Bandwidth** | 10 MHz instantaneous (9 MHz alias/image-free) |
+| **Bandwidth** | 10 MHz instantaneous (up to 9 MHz alias/image-free) |
 | **ADC** | 12-bit @ 20 MSPS |
 | **Dynamic Range** | Up to 80 dB (64 dB SNR, 10.4 ENOB) |
 | **Noise Figure** | ~3.5 dB (42–1002 MHz typical) |
@@ -26,8 +26,8 @@ The first product in the lineup is the **HydraSDR RFOne** — a professional-gra
 | **Interface** | USB-C (USB 2.0) |
 | **Antenna** | SMA female connector |
 | **Enclosure** | 7075 aluminum, black anodized |
-| **Expansion** | 2× U.FL (reserved), 18-pin GPIO header |
-| **Clock Outputs** | 2× configurable up to 160 MHz |
+| **Expansion** | 2x U.FL (reserved), 18-pin GPIO header |
+| **Clock Outputs** | 2x configurable up to 160 MHz |
 | **Multi-Unit Sync** | Up to 3 boards in a single enclosure |
 
 ---
@@ -66,8 +66,9 @@ The first product in the lineup is the **HydraSDR RFOne** — a professional-gra
 
 | Tool | Description |
 |:--|:--|
+| **[hydrasdr_adsb](https://github.com/hydrasdr/hydrasdr_adsb)** ([releases](https://github.com/hydrasdr/hydrasdr_adsb/releases)) | Mode S / ADS-B 1090 MHz receiver for HydraSDR. Decodes the 12-bit I/Q stream at 2.5/5/10 MS/s, live through libhydrasdr or from a recording. Features Beast, SBS and AVR network outputs for readsb, tar1090 and Virtual Radar Server, lossless .raw12 recording with byte-for-byte replay, and single-bit error correction. Windows, macOS, Linux and Raspberry Pi |
 | **[hydrasdr_433](https://github.com/hydrasdr/hydrasdr_433)** ([nightly](https://github.com/hydrasdr/hydrasdr_433/releases/tag/nightly)) | Wideband ISM data receiver based on [rtl_433](https://github.com/merbanan/rtl_433/). Decodes 290+ protocols on 433.92/868/315/345/915 MHz ISM bands. Features native CF32 pipeline, polyphase filter bank channelizer, wideband scanning, runtime SIMD dispatch (SSE2/AVX2/AVX-512/NEON/SVE), and cross-channel deduplication |
-| **[kalibrate-hydrasdr](https://github.com/hydrasdr/kalibrate-hydrasdr)** | GSM-based frequency calibration — scans GSM base stations to measure and correct TCXO frequency offset with PPM/PPB precision |
+| **[kalibrate-hydrasdr](https://github.com/hydrasdr/kalibrate-hydrasdr)** ([releases](https://github.com/hydrasdr/kalibrate-hydrasdr/releases))| GSM-based frequency calibration — scans GSM base stations to measure and correct TCXO frequency offset with PPM/PPB precision |
 | **[SatDump fork](https://github.com/hydrasdr/SatDump)** | Satellite signal decoding with nightly build support |
 | **[URH fork](https://github.com/hydrasdr/urh)** | Universal Radio Hacker — wireless protocol investigation with native RFOne support |
 | **[LuaRadio fork](https://github.com/hydrasdr/luaradio)** | Lightweight, embeddable SDR framework with RFOne support |
